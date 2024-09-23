@@ -6,8 +6,9 @@ on:
       - master
   pull_request:
     branches:
-      - master
-
+      - beta
+  workflow_dispatch:
+  
 jobs:
   build:
     name: Test build
