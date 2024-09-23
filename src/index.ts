@@ -441,7 +441,7 @@ export class AtomicCalendarRevive extends LitElement {
 								${eventDate}
 							</div>`
 						: html``;
-				return html`<div class="single-event-container ${compactMode} ${dayWrap} ${hideDate}" style="${lastEventStyle}">
+				return html`<div class="single-event-container ${compactMode} ${dayWrap} ${hideDate}" style="${lastEventStyle} ${eventCalName}">
 					${eventLeft}
 					<div class="event-right" style="${finishedEventsStyle}">
 						${currentEventLine}
